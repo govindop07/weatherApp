@@ -13,7 +13,7 @@ const SearchBar = () => {
   });
   const [city, setCity] = useState("");
   const [error, setError] = useState("");
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   const handleSubmit = async(e) =>{
     e.preventDefault();
